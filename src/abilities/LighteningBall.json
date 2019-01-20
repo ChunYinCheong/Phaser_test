@@ -1,0 +1,11 @@
+{
+  "key": "LighteningBall",
+  "type": "AttackEffect",
+  "name": "Lightening Ball",
+  "description": "Have a chance to cause Lightening Ball ",
+  "maxLevel": 4,
+  "chance": [10,20,30,40],
+  "cooldown": 0,
+  "mana": 0,
+  "effect" : "LighteningBall"
+}

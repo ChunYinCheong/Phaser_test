@@ -1,0 +1,9 @@
+{
+  "key": "Revival",
+  "type": "Revival",
+  "name": "Revival",
+  "description": "Resurrect when killed.",
+  "maxLevel": 4,
+  "cooldown": 240,
+  "hpRecover": 100
+}

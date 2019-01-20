@@ -1,0 +1,11 @@
+{
+  "key": "FireBall",
+  "type": "AttackEffect",
+  "name": "Fire Ball",
+  "description": "Have a chance to cause Fire Ball ",
+  "maxLevel": 4,
+  "chance": [10,20,30,40],
+  "cooldown": 0,
+  "mana": 0,
+  "effect" : "FireBall"
+}

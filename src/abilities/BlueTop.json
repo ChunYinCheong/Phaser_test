@@ -1,0 +1,11 @@
+{
+  "key": "BlueTop",
+  "type": "AttackEffect",
+  "name": "Blue Top",
+  "description": "Have a chance to cause Blue Top ",
+  "maxLevel": 4,
+  "chance": [10,20,30,40],
+  "cooldown": 0,
+  "mana": 0,
+  "effect" : "BlueTop"
+}

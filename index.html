@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>hello phaser!</title>        
+        <script src="phaser.js"></script>
+
+        <!-- Util -->
+        <script src="src/EngineUtil.js" ></script>
+        <script src="src/AbilityUtil.js" ></script>
+        <script src="src/UnitUtil.js" ></script>
+        <script src="src/TimerUtil.js" ></script>
+        <script src="src/TriggerUtil.js" ></script>
+        <script src="src/GameUtil.js" ></script>   
+        <!-- State -->
+        <script src="src/states/PreBattleState.js" ></script>
+        <script src="src/states/BattleState.js" ></script>
+        <script src="src/states/MenuState.js" ></script>
+        <!-- Other -->
+        <script src="src/Unit.js" ></script>
+
+    </head>
+    <body>
+        <script type="text/javascript">
+            var _gameData;
+            GameUtil.resetGameData();
+
+            var game = new Phaser.Game(_gameData.screenWidth, _gameData.screenHeight, Phaser.AUTO);
+
+            game.state.add('Battle',BattleState);
+            game.state.add('PreBattle',PreBattleState);
+            game.state.add('Menu',MenuState);
+            game.state.start('Menu');
+
+        </script>
+    </body>
+</html>

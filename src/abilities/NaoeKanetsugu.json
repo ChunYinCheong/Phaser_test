@@ -1,0 +1,11 @@
+{
+  "key": "NaoeKanetsugu",
+  "type": "UnitTakesDamage",
+  "name": "Naoe Kanetsugu",
+  "description": "Have a chance to cause Naoe Kanetsugu ",
+  "maxLevel": 4,
+  "chance": [10,20,30,40],
+  "cooldown": 0,
+  "mana": 0,
+  "effect" : "NaoeKanetsugu"
+}

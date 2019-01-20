@@ -1,0 +1,8 @@
+{
+  "key": "LifeSteal",
+  "type": "LifeSteal",
+  "name": "Life Steal",
+  "description": "Recover hp equal to [100% X Level] of the attack damage dealt to an enemy unit",
+  "maxLevel": 4,
+  "multiply": [100,200,300,400]
+}

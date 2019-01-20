@@ -1,0 +1,92 @@
+{
+  "health": 20,
+  "fireRate": 1,
+  "fireRange": 1000,
+  "sprite": {
+    "key": "tank",
+    "frame": "tank1"
+  },
+  "projectile": {
+    "key": "bullet"
+  },
+  "resources": [
+    {
+      "type": "image",
+      "key": "bullet",
+      "url": "assets/games/tanks/bullet.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "kaboom",
+      "url": "assets/games/tanks/explosion.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": 23,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "atlas",
+      "key": "enemy",
+      "textureURL": "assets/games/tanks/enemy-tanks.png",
+      "atlasURL": "assets/games/tanks/tanks.json"
+    },
+    {
+      "type": "atlas",
+      "key": "tank",
+      "textureURL": "assets/games/tanks/tanks.png",
+      "atlasURL": "assets/games/tanks/tanks.json"
+    },
+    {
+      "type": "atlas-example",
+      "key": "enemy",
+      "textureURL": "assets/games/tanks/enemy-tanks.png",
+      "atlasURL": "assets/games/tanks/tanks.json",
+      "atlasData": 64,
+      "format": 23
+    },    
+    {
+      "type": "spritesheet",
+      "key": "fx1_blue_topEffect",
+      "url": "opengameart/FX/fx1_blue_topEffect_spritesheet.png",
+      "frameWidth": 98,
+      "frameHeight": 203
+    },    
+    {
+      "type": "spritesheet",
+      "key": "fx8_lighteningBall",
+      "url": "opengameart/FX/fx8_lighteningBall_spritesheet.png",
+      "frameWidth": 56,
+      "frameHeight": 65
+    },    
+    {
+      "type": "spritesheet",
+      "key": "fx3_fireBall",
+      "url": "opengameart/FX/fx3_fireBall_spritesheet.png",
+      "frameWidth": 184,
+      "frameHeight": 85
+    },    
+    {
+      "type": "spritesheet",
+      "key": "fx6_eaterFire",
+      "url": "opengameart/FX/fx6_eaterFire_spritesheet.png",
+      "frameWidth": 184,
+      "frameHeight": 85
+    },    
+    {
+      "type": "spritesheet",
+      "key": "fx10_blackExplosion",
+      "url": "opengameart/FX/fx10_blackExplosion_spritesheet.png",
+      "frameWidth": 50,
+      "frameHeight": 47
+    },    
+    {
+      "type": "spritesheet",
+      "key": "fx2_swordFire",
+      "url": "opengameart/FX/fx2_swordFire_spritesheet.png",
+      "frameWidth": 186,
+      "frameHeight": 83
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "key": "CriticalStrikes",
+  "type": "CriticalStrikes",
+  "name": "Critical Strikes",
+  "description": "Have a chance to cause more damage",
+  "level": 4,
+  "chance": 20,
+  "multiply": [2,3,4,5],
+  "cooldown": 0,
+  "mana": 0
+}

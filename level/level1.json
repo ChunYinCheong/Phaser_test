@@ -1,0 +1,66 @@
+{
+  "units": [
+    {
+      "type": "Tower",
+      "team": 2
+    },
+    {
+      "type": "Tower2",
+      "team": 1
+    },
+    {
+      "type": "Tower2",
+      "team": 1,
+      "unitKey": "mainUnit",
+      "x": 0,
+      "y": 0,
+      "fireRate": 2,
+      "fireRange": 1000,
+      "health": 100,
+      "movable": false,
+      "abilities": [
+        "NaoeKanetsugu",
+        "CriticalStrikes",
+        "MultiAim",
+        "BlueTop",
+        "LighteningBall",
+        "FireBall"
+      ]
+    }
+  ],
+  "triggers": [
+    {
+      "events": [
+        {
+          "type": "TimeElapsed",
+          "delay": 1
+        },
+        {
+          "type": "Periodic",
+          "delay": 0,
+          "every": 3
+        }
+      ],
+      "actions": "CreateRandomUnit"
+    },
+    {
+      "events": [
+        {
+          "type": "Periodic",
+          "delay": 0,
+          "every": 3
+        }
+      ],
+      "actions": "RandomMove"
+    },
+    {
+      "events": [
+        {
+          "type": "UnitDies",
+          "unitKey": "mainUnit"
+        }
+      ],
+      "actions": "Lose"
+    }
+  ]
+}

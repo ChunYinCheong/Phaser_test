@@ -1,0 +1,8 @@
+{
+  "key": "MultiAim",
+  "type": "MultiAim",
+  "name": "Multi Aim",
+  "description": "Attack multiple units at once",
+  "maxLevel": 4,
+  "extraAim": [1,2,3,4]
+}

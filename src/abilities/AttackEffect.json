@@ -1,0 +1,11 @@
+{
+  "key": "AttackEffect",
+  "type": "AttackEffect",
+  "name": "Attack Effect",
+  "description": "Have a chance to cause special effect when attack",
+  "maxLevel": 4,
+  "chance": [10,20,30,40],
+  "cooldown": 0,
+  "mana": 0,
+  "effect" : ""
+}

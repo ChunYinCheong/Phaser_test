@@ -1,0 +1,50 @@
+{
+  "health": 20,
+  "fireRate": 1,
+  "fireRange": 1000,
+  "sprite": {
+    "key": "enemy",
+    "frame": "tank1"
+  },
+  "projectile": {
+    "key": "bullet"
+  },
+  "resources": [
+    {
+      "type": "image",
+      "key": "bullet",
+      "url": "assets/games/tanks/bullet.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "kaboom",
+      "url": "assets/games/tanks/explosion.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": 23,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "atlas",
+      "key": "enemy",
+      "textureURL": "assets/games/tanks/enemy-tanks.png",
+      "atlasURL": "assets/games/tanks/tanks.json"
+    },
+    {
+      "type": "atlas",
+      "key": "tank",
+      "textureURL": "assets/games/tanks/tanks.png",
+      "atlasURL": "assets/games/tanks/tanks.json"
+    },
+    {
+      "type": "spritesheet-example",
+      "key": "enemy",
+      "textureURL": "assets/games/tanks/enemy-tanks.png",
+      "atlasURL": "assets/games/tanks/tanks.json",
+      "atlasData": 64,
+      "format": 23
+    }
+  ]
+}
